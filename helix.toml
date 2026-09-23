@@ -1,0 +1,93 @@
+# Cassette Futurism — Magnetic Night (Helix)
+
+"attribute" = "cyan"
+"keyword" = "orange"
+"keyword.directive" = "pink"
+"namespace" = "purple"
+"punctuation" = "fg_dim"
+"operator" = "pink"
+"special" = "pink"
+"variable.other.member" = "fg"
+"variable.parameter" = "cyan"
+"variable.builtin" = { fg = "cyan", modifiers = ["italic"] }
+"type" = "purple"
+"type.builtin" = { fg = "purple", modifiers = ["italic"] }
+"constructor" = "purple"
+"function" = "orange"
+"function.macro" = "pink"
+"function.builtin" = "cyan"
+"comment" = { fg = "comment", modifiers = ["italic"] }
+"constant" = "cyan"
+"constant.builtin" = { fg = "cyan", modifiers = ["italic"] }
+"string" = "green"
+"string.escape" = "pink"
+"string.regex" = "pink"
+"number" = "cyan"
+"tag" = "pink"
+"tag.attribute" = { fg = "orange", modifiers = ["italic"] }
+
+"markup.heading" = { fg = "orange", modifiers = ["bold"] }
+"markup.list" = "cyan"
+"markup.bold" = { fg = "orange", modifiers = ["bold"] }
+"markup.italic" = { fg = "yellow", modifiers = ["italic"] }
+"markup.link.url" = { fg = "cyan", modifiers = ["underlined"] }
+"markup.link.text" = "purple"
+"markup.raw" = "yellow"
+"markup.quote" = "fg_dim"
+
+"diff.plus" = "git_add"
+"diff.minus" = "git_delete"
+"diff.delta" = "git_change"
+
+"ui.background" = { bg = "bg" }
+"ui.text" = "fg"
+"ui.cursor" = { fg = "bg", bg = "orange" }
+"ui.cursorline" = { bg = "bg4" }
+"ui.selection" = { bg = "selection" }
+"ui.linenr" = "comment"
+"ui.linenr.selected" = { fg = "orange", modifiers = ["bold"] }
+"ui.statusline" = { fg = "fg_dim", bg = "bg1" }
+"ui.statusline.inactive" = { fg = "comment", bg = "bg_dim" }
+"ui.popup" = { fg = "fg", bg = "bg2" }
+"ui.window" = "border"
+"ui.help" = { fg = "fg", bg = "bg2" }
+"ui.menu" = { fg = "fg", bg = "bg2" }
+"ui.menu.selected" = { fg = "bg", bg = "orange" }
+"ui.virtual.whitespace" = "border"
+"ui.virtual.indent-guide" = "border"
+
+"diagnostic.error" = { underline = { color = "error", style = "curl" } }
+"diagnostic.warning" = { underline = { color = "warn", style = "curl" } }
+"diagnostic.info" = { underline = { color = "info", style = "curl" } }
+"diagnostic.hint" = { underline = { color = "hint", style = "curl" } }
+"error" = "error"
+"warning" = "warn"
+"info" = "info"
+"hint" = "hint"
+
+[palette]
+bg = "#1a1d21"
+bg_dim = "#171a1e"
+bg1 = "#1f2327"
+bg2 = "#25292e"
+bg3 = "#2d3238"
+bg4 = "#3a3f45"
+selection = "#3a4a5a"
+border = "#3a3f45"
+fg = "#d4d4d4"
+fg_dim = "#8a8f96"
+comment = "#6272a4"
+red = "#ff5555"
+orange = "#ffb86c"
+yellow = "#f1fa8c"
+green = "#50fa7b"
+cyan = "#8be9fd"
+purple = "#bd93f9"
+pink = "#ff79c6"
+error = "#ff5555"
+warn = "#ffb86c"
+info = "#8be9fd"
+hint = "#50fa7b"
+git_add = "#50fa7b"
+git_change = "#ffb86c"
+git_delete = "#ff5555"
