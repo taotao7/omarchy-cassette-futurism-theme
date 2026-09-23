@@ -1,0 +1,18 @@
+#!/bin/bash
+# theme-set hook. Omarchy runs every file in
+# ~/.config/omarchy/hooks/theme-set.d/ with bash after a theme change.
+# The skin generator lives in the theme checkout, so a later git pull is
+# picked up without reinstalling this hook.
+
+set -euo pipefail
+
+for candidate in \
+  "$HOME/.config/omarchy/themes/cassette-futurism/fcitx5/apply.py" \
+  "$HOME/.config/omarchy/themes/cassette-futurism-light/fcitx5/apply.py"
+do
+  if [[ -f $candidate ]]; then
+    exec python3 "$candidate"
+  fi
+done
+
+exit 0

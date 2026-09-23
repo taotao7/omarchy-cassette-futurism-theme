@@ -10,8 +10,10 @@ phosphor accents. Light variant: [omarchy-cassette-futurism-light-theme](https:/
 
 ```bash
 omarchy theme install https://github.com/taotao7/omarchy-cassette-futurism-theme.git
-omarchy theme set cassette-futurism
+~/.config/omarchy/themes/cassette-futurism/fcitx5/apply.sh
 ```
+
+`omarchy theme install` already applies the desktop theme. Omarchy does not run scripts shipped in a theme, so the second command is what points fcitx5 at this palette: ink background, amber border, selection pill, 8px corners. It also installs a `theme-set` hook. After that, switching theme — including to the light variant — repaints the candidate window from the active palette. Running `apply.sh` from either checkout is enough.
 
 ## Palette
 
@@ -29,7 +31,7 @@ omarchy theme set cassette-futurism
 
 The theme ships `colors.toml` plus a retro-futurism artwork background,
 and hand-tuned `btop.theme` and
-`helix.toml`, plus a `shell.controls.toml` section override that keeps buttons and other controls visible (stronger fills, amber accent borders). Terminal, Hyprland, shell, and editor configs are generated
+`helix.toml`, plus a `shell.controls.toml` section override that keeps buttons and other controls visible (stronger fills, amber accent borders). `fcitx5/apply.sh` paints the fcitx5 candidate window from the same palette. Terminal, Hyprland, shell, and editor configs are generated
 from the palette by Omarchy's templates.
 
 ## Attribution
