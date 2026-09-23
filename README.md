@@ -2,7 +2,7 @@
 
 An [Omarchy](https://omarchy.org/) theme based on the Cassette Futurism palette —
 **Analog Dream: Magnetic Night**: dark CRT console colors with amber and
-phosphor accents.
+phosphor accents. Light variant: [omarchy-cassette-futurism-light-theme](https://github.com/taotao7/omarchy-cassette-futurism-light-theme).
 
 ![preview](preview.png)
 
