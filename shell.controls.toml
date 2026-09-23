@@ -1,0 +1,21 @@
+# Cassette Futurism — Magnetic Night: control chrome visibility.
+# Replaces the [controls] section of the generated shell.toml.
+# Gives idle/hover control states a readable fill and an amber accent border.
+
+normal-color        = "#d4d4d4"
+normal-fill-alpha   = 0.08
+normal-border       = "accent"
+normal-border-width = 1
+normal-border-alpha = 0.5
+
+hover-cursor-color        = "#d4d4d4"
+hover-cursor-fill-alpha   = 0.14
+hover-cursor-border       = "accent"
+hover-cursor-border-width = 1
+hover-cursor-border-alpha = 0.75
+
+focus-color        = "#d4d4d4"
+focus-fill-alpha   = 0.14
+focus-border       = "accent"
+focus-border-width = 1
+focus-border-alpha = 0.75
